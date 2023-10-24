@@ -17,7 +17,7 @@ services:
     restart: always
     entrypoint: ["dotnet", "UmbracoContainer.dll", "--urls", "http://0.0.0.0"]
     ports:
-      - "82:80"
+      - "8001:80"
     volumes:
       - umbraco_data:/Logs:/output/umbraco/Logs
       - umbraco_data:/uSync:/output/uSync
