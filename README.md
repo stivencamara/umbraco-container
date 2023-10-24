@@ -9,7 +9,7 @@ You can run your Umbraco instance as a docker container with easy upgrade capabi
 ## Example docker-compose.yml
 ```
 version: '3.7'
-
+name: umbraco
 services:
   umbraco-container:
     container_name: my-umbraco-container
